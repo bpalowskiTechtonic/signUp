@@ -1,0 +1,42 @@
+.form-container{
+	display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
+ .single-Card{
+	font-size: 12px;
+	padding: 20px;
+	display: flex;
+	flex-flow:  column;
+  border-radius: 3px;
+	box-shadow: 1px 6px 50px
+}
+.single-Card > input{
+background-color: #F0F0F0;
+  width: 60vw;
+	margin: 9px;
+	padding: 11px;
+	border:none;
+} 
+.bord{
+border-bottom: 2px solid #D0D0D0;
+margin-bottom: 5vh;
+}
+
+.btn{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.btn>button{
+	color: white;
+	width: 30vw;
+	height: 3vh;
+	border-radius: 6px;
+}
+.btn-Red{
+	background-color: red;
+}
+.btn-Green{
+	background-color: green;
+}
